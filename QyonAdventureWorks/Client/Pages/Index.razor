@@ -1,0 +1,36 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Index</PageTitle>
+
+
+<h1 style="text-align:center">Seja bem-vindo a Qyon Adventure.</h1>
+
+<br />
+
+<div>
+   <center>
+        <button class="btn btn-primary" @onclick="(() => MostrarCompetidores())">Competidores</button>
+   
+        <button class="btn btn-primary" @onclick="(() => MostrarHistoricos())">Históricos</button>
+    
+        <button class="btn btn-primary" @onclick="(() => MostrarPistas())">Pistas</button>
+    </center>
+</div>
+
+
+
+@code {
+    void MostrarCompetidores()
+    {
+        NavigationManager.NavigateTo("/Competidores");
+    }
+    void MostrarHistoricos()
+    {
+        NavigationManager.NavigateTo("/historico");
+    }
+    void MostrarPistas()
+    {
+        NavigationManager.NavigateTo("/Pista");
+    }
+}

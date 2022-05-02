@@ -1,0 +1,314 @@
+﻿++Solução 'QyonAdventureWorks' ‎(3 de 3 projetos)
+i:{00000000-0000-0000-0000-000000000000}:QyonAdventureWorks.sln
+++QyonAdventureWorks.Server
+i:{00000000-0000-0000-0000-000000000000}:QyonAdventureWorks.Server
+++Connected Services 
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2436
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:>2437
+++Dependências
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2434
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:>1381
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:>2435
+++Properties
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\properties\
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\properties\
+++Controllers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\controllers\
+++CompetidoresController.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\controllers\competidorescontroller.cs
+++HistoricoController.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\controllers\historicocontroller.cs
+++PistaController.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\controllers\pistacontroller.cs
+++Data
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\data\
+++DataContext.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\data\datacontext.cs
+++Migrations
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\migrations\
+++20220501205342_Initial.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\migrations\20220501205342_initial.cs
+++DataContextModelSnapshot.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\migrations\datacontextmodelsnapshot.cs
+++Pages
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\pages\
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\
+++appsettings.json
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\appsettings.json
+++Program.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\program.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\program.cs
+++Nenhuma dependência de serviço descoberta
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2439
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:>2438
+++Analisadores
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:analisadores
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:analisadores
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:analisadores
+++Estruturas
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:estruturas
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:estruturas
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:estruturas
+++Pacotes
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:pacotes
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:pacotes
+++Projetos
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:projetos
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:projetos
+++launchSettings.json
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\properties\launchsettings.json
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\properties\launchsettings.json
+++20220501205342_Initial.Designer.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\migrations\20220501205342_initial.designer.cs
+++Error.cshtml
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\pages\error.cshtml
+++appsettings.Development.json
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\.nuget\packages\microsoft.aspnetcore.components.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\microsoft.netcore.app
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\microsoft.netcore.app
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\microsoft.netcore.app
+++Microsoft.AspNetCore.Components.WebAssembly.Server (6.0.4)
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2453
+++Microsoft.EntityFrameworkCore (6.0.4)
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2450
+++Microsoft.EntityFrameworkCore.Design (6.0.4)
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2452
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:>2451
+++QyonAdventureWorks.Client
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\qyonadventureworks.client.csproj
+i:{00000000-0000-0000-0000-000000000000}:QyonAdventureWorks.Client
+++QyonAdventureWorks.Shared
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\qyonadventureworks.shared.csproj
+i:{00000000-0000-0000-0000-000000000000}:QyonAdventureWorks.Shared
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\qyonadventureworks.shared.csproj
+++Error.cshtml.cs
+i:{793a189b-bd57-4677-8c4f-f98a5b9690f4}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\server\pages\error.cshtml.cs
+++Model
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\model\
+++CompetidorModel.cs
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\model\competidormodel.cs
+++HistoricoModel.cs
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\model\historicomodel.cs
+++PistaModel.cs
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\model\pistamodel.cs
+++WeatherForecast.cs
+i:{f87fba35-a3ff-4dbf-ae36-beca37f686e3}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\shared\weatherforecast.cs
+++wwwroot
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\
+++css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\css\
+++bootstrap
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\bootstrap\
+++open-iconic
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\
+++app.css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\app.css
+++Script.js
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\script.js
+++favicon.ico
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\favicon.ico
+++icon-192.png
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\icon-192.png
+++index.html
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\index.html
+++Competidores.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\competidores.razor
+++Counter.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\counter.razor
+++CriarEditarCompetidor.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\criareditarcompetidor.razor
+++CriarEditarHistorico.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\criareditarhistorico.razor
+++CriarEditarPista.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\criareditarpista.razor
+++Historico.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\historico.razor
+++Index.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\index.razor
+++Pista.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\pages\pista.razor
+++Services
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\
+++Competidores
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\competidores\
+++CompetidoresService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\competidores\competidoresservice.cs
+++ICompetidoresService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\competidores\icompetidoresservice.cs
+++Historico
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\historico\
+++HistoricoService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\historico\historicoservice.cs
+++IHistoricoService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\historico\ihistoricoservice.cs
+++Pista
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\pista\
+++IPistaService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\pista\ipistaservice.cs
+++PistaService.cs
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\services\pista\pistaservice.cs
+++Shared
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\
+++MainLayout.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\mainlayout.razor
+++NavMenu.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\surveyprompt.razor
+++_Imports.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\_imports.razor
+++App.razor
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\app.razor
+++bootstrap.min.css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\readme.md
+++MainLayout.razor.css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\shared\navmenu.razor.css
+++ILLink.CodeFixProvider
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\illink.codefixprovider.dll
+++ILLink.RoslynAnalyzer
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
+++Microsoft.AspNetCore.Components.WebAssembly (6.0.4)
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:>2465
+++Microsoft.AspNetCore.Components.WebAssembly.DevServer (6.0.4)
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:>2466
+++bootstrap.min.css.map
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{18463542-a8dc-4aee-968c-ae20242dd4b0}:c:\users\elian schaefer\source\repos\teste qyon\qyonadventureworks\qyonadventureworks\client\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++Documentos de Script
+++localhost꞉7277/_framework/blazor.webassembly.js
+++localhost꞉7277/_framework/aspnetcore-browser-refresh.js
+++localhost꞉44399/83722ce70f3c41dfac53da334905d098/browserLink
+++localhost꞉7277/_framework/dotnet.6.0.1.2pj8xfj3dm.js
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\WeatherForecast.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\Model\CompetidorModel.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\Model\HistoricoModel.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\Model\PistaModel.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Shared\SurveyPrompt.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Shared\MainLayout.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Shared\NavMenu.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\Competidores.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\Counter.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\CriarEditarCompetidor.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\CriarEditarHistorico.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\CriarEditarPista.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\Historico.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\Index.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Pages\Pista.razor
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Services\Pista\PistaService.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Services\Historico\HistoricoService.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Services\Competidores\CompetidoresService.cs
+++file://c:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Client\Program.cs
+++mono-wasm.invalid/converter_ii_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_ii_result_unmarshaled
+++mono-wasm.invalid/converter_mi
+++mono-wasm.invalid/managed_BINDINGS_GetCSOwnedObjectByJSHandle
+++mono-wasm.invalid/variadic_converter_mi
+++mono-wasm.invalid/managed_BINDINGS_GetCSOwnedObjectJSHandle
+++mono-wasm.invalid/managed_BINDINGS_TryGetCSOwnedObjectJSHandle
+++mono-wasm.invalid/variadic_converter_iii_result_unmarshaled
+++mono-wasm.invalid/converter_iii_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_CreateCSOwnedProxy
+++mono-wasm.invalid/variadic_converter_i_result_unmarshaled
+++mono-wasm.invalid/converter_i_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_m
+++mono-wasm.invalid/managed_BINDINGS_GetJSOwnedObjectGCHandle
+++mono-wasm.invalid/converter_i
+++mono-wasm.invalid/variadic_converter_i
+++mono-wasm.invalid/managed_BINDINGS_ReleaseJSOwnedObjectByGCHandle
+++mono-wasm.invalid/converter_
+++mono-wasm.invalid/managed_BINDINGS_GetJSOwnedObjectByGCHandle
+++mono-wasm.invalid/converter_m
+++mono-wasm.invalid/variadic_converter_
+++mono-wasm.invalid/managed_BINDINGS_CreateTaskSource
+++mono-wasm.invalid/converter_io
+++mono-wasm.invalid/variadic_converter_io
+++mono-wasm.invalid/managed_BINDINGS_SetTaskSourceResult
+++mono-wasm.invalid/converter_is
+++mono-wasm.invalid/variadic_converter_is
+++mono-wasm.invalid/managed_BINDINGS_SetTaskSourceFailure
+++mono-wasm.invalid/managed_BINDINGS_GetTaskSourceTask
+++mono-wasm.invalid/converter_mo
+++mono-wasm.invalid/variadic_converter_mo
+++mono-wasm.invalid/managed_BINDINGS_SetupJSContinuation
+++mono-wasm.invalid/managed_BINDINGS_ObjectToString
+++mono-wasm.invalid/managed_BINDINGS_GetDateValue
+++mono-wasm.invalid/converter_d_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_d_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_CreateDateTime
+++mono-wasm.invalid/converter_s_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_s_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_IsSimpleArray
+++mono-wasm.invalid/managed_BINDINGS_CreateUri
+++mono-wasm.invalid/converter_im
+++mono-wasm.invalid/variadic_converter_im
+++mono-wasm.invalid/converter_ssss
+++mono-wasm.invalid/variadic_converter_ssss
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_InvokeDotNet
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_BeginInvokeDotNet
+++mono-wasm.invalid/converter_s
+++mono-wasm.invalid/variadic_converter_s
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_NotifyByteArrayAvailable
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_EndInvokeJS
+++localhost꞉7277/_framework/blazor-hotreload.js

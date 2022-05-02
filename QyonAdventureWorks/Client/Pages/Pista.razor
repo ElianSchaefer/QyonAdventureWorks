@@ -1,0 +1,53 @@
+﻿@page "/Pista"
+@inject IPistaService PistaService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Pistas</PageTitle>
+
+<h1>Pistas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pista in PistaService.Pista)
+        {
+            <tr>
+                <td>@pista.Id</td>
+                <td>@pista.Descricao</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(() => MostrarPista(pista.Id))"><i class="oi oi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger" @onclick="(() => DeletarPista(pista.Id))"><i class="oi oi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" @onclick="CriarNovaPista">Criar Nova Pista</button>
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await PistaService.ListarPista();
+    }
+    
+     void MostrarPista(int id)
+    {
+        NavigationManager.NavigateTo($"Create_edit_pista/{id}");
+    }
+
+    void CriarNovaPista()
+    {
+        NavigationManager.NavigateTo("Create_edit_pista");
+    }
+     async Task DeletarPista(int id)
+    {
+         NavigationManager.NavigateTo($"Create_edit_pista/{id}");
+    }
+}

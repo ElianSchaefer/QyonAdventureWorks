@@ -1,0 +1,61 @@
+﻿@page "/Competidores"
+@inject ICompetidoresService CompetidoresService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Competidores</PageTitle>
+
+<h1>Competidores</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Temperatura Corporal</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var competidor in CompetidoresService.Competidores)
+        {
+            <tr>
+                <td>@competidor.Id</td>
+                <td>@competidor.Nome</td>
+                <td>@competidor.Sexo</td>
+                <td class="cabecalho">@competidor.TemperaturaCorporal º</td>
+                <td >@competidor.Peso kg</td>
+                <td >@competidor.Altura cm</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(() => MostarCompetidor(competidor.Id))"><i class="oi oi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger" @onclick="(() => DeletarCompetidor(competidor.Id))"><i class="oi oi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" @onclick="CriarNovoCompetidor">Criar Novo Competidor</button>
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await CompetidoresService.ListarCompetidor();
+    }
+
+    void MostarCompetidor(int id)
+    {
+        NavigationManager.NavigateTo($"Create_edit_competidor/{id}");
+    }
+
+    void CriarNovoCompetidor()
+    {
+        NavigationManager.NavigateTo("Create_edit_competidor");
+    }
+     async Task DeletarCompetidor(int id)
+    {
+         NavigationManager.NavigateTo($"Create_edit_competidor/{id}");
+    }
+}

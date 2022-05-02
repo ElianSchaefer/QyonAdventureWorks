@@ -1,0 +1,12 @@
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\bin\Debug\net6.0\QyonAdventureWorks.Shared.deps.json
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\bin\Debug\net6.0\QyonAdventureWorks.Shared.dll
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\bin\Debug\net6.0\ref\QyonAdventureWorks.Shared.dll
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\bin\Debug\net6.0\QyonAdventureWorks.Shared.pdb
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.AssemblyInfoInputs.cache
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.AssemblyInfo.cs
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.dll
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\ref\QyonAdventureWorks.Shared.dll
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.pdb
+C:\Users\Elian Schaefer\Source\repos\Teste QYON\QyonAdventureWorks\QyonAdventureWorks\Shared\obj\Debug\net6.0\QyonAdventureWorks.Shared.csproj.AssemblyReference.cache

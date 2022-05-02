@@ -1,0 +1,58 @@
+﻿@page "/historico"
+@inject IHistoricoService HistoricoService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Histórico</PageTitle>
+
+<h1>Histórico</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ID Competidor</th>
+            <th>ID Pista</th>
+            <th>Data da Corrida</th>
+            <th>Tempo Gasto</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var historico in HistoricoService.Historico)
+        {
+            <tr>
+                <td>@historico.Id</td>
+                <td>@historico.CompetidorId</td>
+                <td>@historico.PistaId</td>
+                <td>@historico.DataCorrida.ToShortDateString()</td>
+                <td>@historico.TempoGasto Min</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(() => MostarHistorico(historico.Id))"><i class="oi oi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger" @onclick="(() => DeletarHistorico(historico.Id))"><i class="oi oi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" @onclick="CriarNovoHistorico">Criar Novo Histórico</button>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await HistoricoService.ListarHistorico();
+    }
+
+    void MostarHistorico(int id)
+    {
+        NavigationManager.NavigateTo($"Create_edit_historico/{id}");
+    }
+    void CriarNovoHistorico()
+    {
+        NavigationManager.NavigateTo("Create_edit_historico");
+    }
+    async Task DeletarHistorico(int id)
+    {
+        NavigationManager.NavigateTo($"Create_edit_historico/{id}");
+    }
+}
+

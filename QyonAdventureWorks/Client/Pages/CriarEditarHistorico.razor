@@ -1,0 +1,112 @@
+﻿@page "/Create_edit_historico"
+@page "/Create_edit_historico/{id:int}"
+@inject IHistoricoService HistoricoService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+@if (Id == null)
+{
+    <PageTitle>Criar Historico</PageTitle>
+    <h3>Criar Historico</h3>
+}
+else
+{
+    <PageTitle>Editar @historico.Id</PageTitle>
+    <h3>Editar @historico.Id</h3>
+}
+
+<EditForm Model="historico" OnSubmit="HandleSubmit">
+    <div>
+        <label for="competidorId">Competidor Id</label>
+        <InputNumber id="competidorId" @bind-Value="historico.CompetidorId" class="form-control"></InputNumber>
+    </div>
+    <div>
+        <label for="pistaId">Pista Id</label>
+        <InputNumber id="pistaId" @bind-Value="historico.PistaId" class="form-control"></InputNumber>
+    </div>
+    <div>
+        <label for="datacorrida">DataCorrida</label>
+        <InputDate id="datacorrida" @bind-Value="historico.DataCorrida" name="diaa" class="form-control"></InputDate>
+    </div>
+    <div>
+        <label for="tempogasto">Tempo Gasto em Minutos</label>
+        <InputNumber id="tempogasto" @bind-Value="historico.TempoGasto" class="form-control"></InputNumber>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">@btnText</button>
+    <button type="button" class="btn btn-danger" @onclick="DeletarHistorico">Deletar Histórico</button>
+</EditForm>
+
+<div id="blazor-error-ui">
+    <environment include="Development">
+        @erro
+    </environment>
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+
+    string btnText = string.Empty;
+    string erro = string.Empty;
+
+    HistoricoModel historico = new HistoricoModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        btnText = Id == null ? "Salvar Histórico" : "Atualizar Histórico";
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id == null)
+        {
+            // Criar novo Histórico
+            //await HistoricoService.CriarHistorico(historico);
+        }
+        else
+        {
+            // Obter um histórico pelo ID
+            historico = await HistoricoService.ObterHistoricoById((int)Id);
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        try
+        {
+            if (Id == null)
+            {
+                VoltarListaHistoricos();
+                await HistoricoService.CriarHistorico(historico);
+            }
+            else
+            {
+                VoltarListaHistoricos();
+                await HistoricoService.EditarHistorico(historico);
+            }
+        }
+        catch (Exception ex)
+        {
+            erro = (ex.Message);
+            await JSRuntime.InvokeAsync<string>("Alert", ex.Message);
+        }
+
+    }
+
+    async Task DeletarHistorico()
+    {
+        VoltarListaHistoricos();
+        await HistoricoService.DeletarHistorico(historico.Id);
+    }
+
+    void VoltarListaHistoricos()
+    {
+        NavigationManager.NavigateTo("/historico");
+    }
+
+
+}

@@ -1,0 +1,100 @@
+﻿@page "/Create_edit_pista"
+@page "/Create_edit_pista/{id:int}"
+@inject IPistaService PistaService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+
+
+@if (Id == null)
+{
+    <PageTitle>Criar Pista</PageTitle>
+    <h3>Criar Pista</h3>
+}
+else
+{
+    <PageTitle>Editar @pista.Id</PageTitle>
+    <h3>Editar @pista.Id</h3>
+}
+
+<EditForm Model="pista" OnSubmit="HandleSubmit">
+
+    <div>
+        <label for="descricao">Descrição</label>
+        <InputText id="descricao" @bind-Value="pista.Descricao" class="form-control"></InputText>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">@btnText</button>
+    <button type="button" class="btn btn-danger" @onclick="DeletarPista">Deletar Pista</button>
+</EditForm>
+
+<div id="blazor-error-ui">
+    <environment include="Development">
+        @erro
+    </environment>
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    string btnText = string.Empty;
+    string erro = string.Empty;
+
+    PistaModel pista = new PistaModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        btnText = Id == null ? "Salvar Pista" : "Atualizar Pista";
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id == null)
+        {
+            //Criar nova pista
+        }
+        else
+        {
+            // Obter uma Pista pelo ID
+            pista = await PistaService.ObterPistaById((int)Id);
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        try
+        {
+            if (Id == null)
+            {
+                VoltarListaPistas();
+                await PistaService.CriarPista(pista);
+            }
+            else
+            {
+                VoltarListaPistas();
+                await PistaService.EditarPista(pista);
+            }
+        }
+        catch (Exception ex)
+        {
+            erro = (ex.Message);
+            await JSRuntime.InvokeAsync<string>("Alert", ex.Message);
+        }
+
+    }
+
+    async Task DeletarPista()
+    {
+        VoltarListaPistas();
+        await PistaService.DeletarPista(pista.Id);
+    }
+
+    void VoltarListaPistas()
+    {
+        NavigationManager.NavigateTo("/Pista");
+    }
+
+}

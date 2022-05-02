@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "793a189b-bd57-4677-8c4f-f98a5b9690f4": {
+      "ProjectGuid": "793a189b-bd57-4677-8c4f-f98a5b9690f4",
+      "DisplayName": "QyonAdventureWorks.Server",
+      "ColorIndex": 0
+    },
+    "18463542-a8dc-4aee-968c-ae20242dd4b0": {
+      "ProjectGuid": "18463542-a8dc-4aee-968c-ae20242dd4b0",
+      "DisplayName": "QyonAdventureWorks.Client",
+      "ColorIndex": 1
+    },
+    "f87fba35-a3ff-4dbf-ae36-beca37f686e3": {
+      "ProjectGuid": "f87fba35-a3ff-4dbf-ae36-beca37f686e3",
+      "DisplayName": "QyonAdventureWorks.Shared",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
